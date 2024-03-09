@@ -46,7 +46,7 @@ const Hero = () => {
                 <button className='a'
                     onClick={handleClickSearchAkram}
                 >
-                    Akram's Projects
+                    Projects
                 </button>
                 <button className='b' onClick={()=>{navigate('/contact');}}>
                     Contact Akram
