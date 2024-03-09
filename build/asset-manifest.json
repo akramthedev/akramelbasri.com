@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.866b22de.css",
+    "main.js": "/static/js/main.c4cbab25.js",
+    "static/media/img.png": "/static/media/img.bbbb721ddafd04f09a9d.png",
+    "static/media/profile1.png": "/static/media/profile1.d55e11486bed69c7079d.png",
+    "static/media/Profile.png": "/static/media/Profile.51ce2a9298f07f97f056.png",
+    "static/media/kakaka.png": "/static/media/kakaka.5002ed82741ae175784f.png",
+    "static/media/curriculum-vitæ.pdf": "/static/media/curriculum-vitæ.3a1e7763656fe7a2be49.pdf",
+    "static/media/a1.png": "/static/media/a1.45531ed954ef222ffa31.png",
+    "static/media/Tags.png": "/static/media/Tags.9d9b9e15ea3b141471f9.png",
+    "static/media/img2.jpg": "/static/media/img2.2956d50aa62c1124aa40.jpg",
+    "static/media/Writte.png": "/static/media/Writte.d9f4fa96cd18efad15f2.png",
+    "static/media/Dashboard.png": "/static/media/Dashboard.6e2f274ad20cbb2c1f31.png",
+    "static/media/notification.png": "/static/media/notification.28a8f189a1d9bb8b6217.png",
+    "static/media/LogoX.png": "/static/media/LogoX.7c26e4fb778203b29dc7.png",
+    "static/media/a2.png": "/static/media/a2.cd284023cd60f2d96ba9.png",
+    "static/media/hero.png": "/static/media/hero.972e51a657681d38334a.png",
+    "index.html": "/index.html",
+    "main.866b22de.css.map": "/static/css/main.866b22de.css.map",
+    "main.c4cbab25.js.map": "/static/js/main.c4cbab25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.866b22de.css",
+    "static/js/main.c4cbab25.js"
+  ]
+}
