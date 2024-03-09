@@ -1,0 +1,595 @@
+.Navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 1.5rem;
+
+}
+@media screen and (max-width : 700px) {
+    .Navbar{
+        padding: 0 0.6rem;
+        
+    }
+}
+.Navbar button{
+    height: 25px;
+    min-width: 60px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.83rem;
+    background-color: transparent;
+}
+.Navbar button:hover{
+    text-decoration: underline;
+}
+.Navbar button i{
+    color: black;
+}
+.Navbar .kaka{
+    background-color: #4285F4;
+    color: white;
+    height: 33px;
+    width: 86px;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    box-shadow: 0 4px 6px -3    px rgba(0, 0, 0, 0.313), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.Navbar .kaka:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #3578e4;
+}
+.Navbar .grid{
+    width: 40px;
+    margin-right: 0.6rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    height: 60px;
+}
+.Navbar .grid .jack{
+    color: black;
+    padding: 0.3rem;
+    font-size: 2.4rem;
+    border-radius: 50%;
+}
+.Navbar .grid:hover .jack{
+    color: black;
+    background-color: #ededed;
+
+}
+.Hero{
+    height: 400px;
+    width: 100%;
+    margin-top: 1.5rem;
+    display:flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.case1{
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 6px;
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.case1 img{
+    margin-bottom: 1rem;
+}
+.case2{
+    height:55px;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.case1 img{
+    height: 8vh;
+    width: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1000px) {
+    .case1 img{
+        height: 9vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    .case1 img{
+        height: 9vh ;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .case1 img{
+        height: 9vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .case1 img{
+        height: 9.4vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+
+    }
+}
+@media screen and (min-width: 1400px) {
+    .case1 img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 1500px) {
+    .case1 img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 4rem;
+        
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .case1 img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 6rem;
+        
+    }
+}
+@media screen and (min-width: 1700px) {
+    .case1 img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 6rem;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .case1 img{
+        height: 10.666vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .case1 img{
+        height: 10.666vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .case1 img{
+        height: 10.666vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .case1 img{
+        height: 11vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+@media screen and (min-width: 2200px) {
+    .case1 img{
+        height: 11vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+@media screen and (min-width: 2400px) {
+    .case1 img{
+        height: 11vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+@media screen and (min-width: 2600px) {
+    .case1 img{
+        height: 12vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 7rem;
+    }
+}
+@media screen and (min-width: 2700px) {
+    .case1 img{
+        height: 12vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 5rem;
+    }
+}
+@media screen and (min-width: 2800px) {
+    .case1 img{
+        height: 12vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 5rem;
+    }
+}
+@media screen and (min-width: 2900px) {
+    .case1 img{
+        height: 13vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 6rem;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .case1 img{
+        height: 13vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .Hero{
+        margin-top: 6rem;
+    }
+}
+
+.case2 input{
+    height: 55px;
+    width: 100%;
+    border-radius: 3rem;
+    max-width: 666px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 7rem;
+}
+.case2 input::placeholder{
+    color: black;
+}
+.case2{
+    position: relative;
+}
+.case2 .zd{
+    position: absolute;
+    left: 1rem;
+    z-index: 999;
+    color: #a3a3a3;
+    font-size: 1.33rem;
+}
+
+.case2 .dd, .case2 .goxjub, .case2 .Gdd5U{
+    position: absolute;
+    z-index: 99999;
+}
+.case2 .dd{
+    right: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #838383;
+}
+.case2 .goxjub{
+    height: 24px;
+    right: 3rem;
+}   
+.case2 .Gdd5U{
+    right: 1rem;
+    height: 24px;
+    width: auto;
+}
+.case3{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case2 input{
+    cursor: default;
+}
+.case3{
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.case3p1{
+    height: 40px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+    
+.case3p1 .a{
+    width: 48%;
+    color: black;
+    height: 36px;
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 0.23rem;
+}
+.case3p1 .b{
+    width: 48%;
+    border-radius: 0.23rem;
+    color: black;
+    cursor: pointer;
+    height: 36px;
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+.case3p2 span{
+    color: #3578e4;
+    font-weight: 500;
+
+}
+.case3p1 .b:hover{
+    border: 1px solid black;
+}
+.case3p1 .a{
+    background : #5697ff ;
+    color : white;
+    outline: 2px solid #5697ff;
+}
+.case3p1 .a:hover{
+   background : #5697ff ;
+    color : white;
+    outline: 2px solid #5697ff;
+}
+.Footer{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Footer .Linkdin{
+    font-size: 1.1rem;
+    color: #0052d7;
+}
+.Footer a{
+    color: black;
+    text-decoration: none;
+}
+.Footer a:hover{
+    text-decoration: underline;
+    color: #0052d7;
+}
+.Footer .Linkdin:hover{
+    color: #003589;
+}
+.Footer .reso a{
+    font-size: 0.79rem;
+    cursor: pointer;
+    border: none;
+    margin: 0 .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    background-color: transparent;
+    font-weight: 500;
+}
+.Footer .reso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ddes{
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    color: gray;
+}
+.Footer .ddes:hover{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.Footer .ll{
+    font-size: 0.777rem;
+    color: gray;
+}
+.case4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    text-align: center;
+    color: gray;
+    width: 200px;
+}
+
+.zidusck{
+    min-height: 100px;
+    height: auto;
+}
+.span3{
+    background-color: red;
+}
+.row2 .column1 .span5666{
+    background-color: #00ffaa;
+    color: black;
+    border: 1px solid #009764 ;
+}
+
+.fa-eye{
+    color: rgb(163, 163, 163);
+}
+
+
+.case3p2{
+    background-color: rgb(255, 255, 255);
+   height: 70px;
+   width: 1000px;
+   overflow: hidden;
+   display: flex;
+   position: relative;
+   margin-top: 4rem;
+}
+
+  
+.advertisement {
+    display: flex; 
+    animation: translateAnimation 20s linear infinite;
+  }
+  
+  .advertisement:nth-child(2) {
+    position: absolute;
+    top: 0; 
+    left: 200%;
+    animation: reappearAnimation 20s linear infinite; 
+  }
+  
+  .advertisement:nth-child(3) {
+    position: absolute;
+    top: 0; 
+    left: 100%;
+    animation: reappearAnimation2 40s linear infinite; 
+  }
+  
+  @keyframes translateAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes reappearAnimation {
+    0% {
+      left: 140%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  @keyframes reappearAnimation2 {
+    0% {
+      left: 280%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  .btnLogoh{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    margin: 0 0.7rem;
+  }
+  .btnLogoh img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+  }
+.caseTwom6zfieduq{
+    cursor : pointer;
+    transition : 0.23s all ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media screen and (min-width: 1024px){
+    .caseTwom6zfieduq:hover{
+    cursor : pointer;    
+}
+}
+.zidusck .row2 .zdqxzdqx{
+    height: auto;
+    width: 90%;
+}
