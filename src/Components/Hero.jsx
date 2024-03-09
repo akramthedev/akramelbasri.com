@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="case1">
             <img src={HeroImg} alt="" />
             <div className="case4">
-                A seasoned creative Developer, Debugger & Designer
+                a developer with a dash of spice and a pinch of expertise
             </div>
         </div>
        
