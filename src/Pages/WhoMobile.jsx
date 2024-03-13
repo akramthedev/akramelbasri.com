@@ -152,7 +152,7 @@ const WhoMobile = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
+                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -184,7 +184,7 @@ const WhoMobile = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
+                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -216,7 +216,7 @@ const WhoMobile = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
+                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
