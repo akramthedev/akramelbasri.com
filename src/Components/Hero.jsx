@@ -24,14 +24,14 @@ const Hero = () => {
 
   return (
     <div className='Hero'>
-        <div className="case1">
+        <div className="case1" onClick={handleClickSearchAkram}>
             <img src={HeroImg} alt="" />
             <div className="case4">
                 A DEV with a dash of spice and a pinch of expertise ^^
             </div>
         </div>
        
-        <div className="case2">
+        <div className="case2" onClick={handleClickSearchAkram}>
             <SearchIcon className='zd'/>
             <input type="text" placeholder='Click a button below...' />
             <ClearIcon className='dd'/>
@@ -49,11 +49,11 @@ const Hero = () => {
                     Projects
                 </button>
                 <button className='b' onClick={()=>{navigate('/contact');}}>
-                    Contact Akram
+                    Contact
                 </button>
             </div>
 
-            <div className="case3p2 case3p2">
+            <div className="case3p2 case3p2" onClick={handleClickSearchAkram} >
               <div class="advertisement">
                 <button class="btnLogoh">
                   <img src="https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png" alt="" />
