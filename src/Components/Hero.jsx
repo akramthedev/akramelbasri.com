@@ -42,14 +42,14 @@ const Hero = () => {
             
             
             
-            <div className="case3p1">   
+            <div className="case3p1"> 
+                <button className='b' onClick={()=>{navigate('/contact');}}>
+                    Contact
+                </button>
                 <button className='a'
                     onClick={handleClickSearchAkram}
                 >
                     Projects
-                </button>
-                <button className='b' onClick={()=>{navigate('/contact');}}>
-                    Contact
                 </button>
             </div>
 
