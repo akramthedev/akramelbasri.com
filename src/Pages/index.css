@@ -786,3 +786,8 @@
     margin: 0 auto;
     margin-bottom: .4rem;
 }
+
+.mobileSearch .caseOne{
+    position : sticky;
+    top: 0px;
+}
