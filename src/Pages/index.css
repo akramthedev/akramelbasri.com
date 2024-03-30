@@ -787,7 +787,8 @@
     margin-bottom: .4rem;
 }
 
-.mobileSearch .caseOne{
+.mobileSearchmobileSearch .caseOne{
     position : sticky;
     top: 0px;
+    z-index: 1000000; 
 }
