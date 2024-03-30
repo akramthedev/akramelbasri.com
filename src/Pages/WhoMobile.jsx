@@ -98,7 +98,7 @@ const WhoMobile = () => {
   },[]);
 
   return (
-    <div className='mobileSearch' id='jsd'>
+    <div className='mobileSearch mobileSearchmobileSearch' id='jsd'>
       
       <div className="caseOne">
         <img src={Logo} alt="" onClick={()=>{navigate('/');}} />
