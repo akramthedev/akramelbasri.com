@@ -70,7 +70,7 @@ const Hero = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
+                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -103,7 +103,7 @@ const Hero = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
+                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -136,7 +136,7 @@ const Hero = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="" />
+                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
