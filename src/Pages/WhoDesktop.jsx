@@ -11,11 +11,19 @@ import {useNavigate} from 'react-router-dom';
 import Project from '../Components/Project';
 
 const projects = [
-  
+  {
+    id : "4",
+    title : "Xplorium", 
+    description : "Xplorium is an app with a 𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝗱𝘀 𝗦𝘆𝘀𝘁𝗲𝗺 and 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘁𝘆 𝗥𝗲𝗰𝗼𝗴𝗻𝗶𝘇𝗲𝗿 based on interactions with the site content, and other complex algorithms using 𝗚𝗿𝗮𝗽𝗵𝘀.", 
+    image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453679/Screenshot_Capture_-_2024-04-18_-_01-03-41_t3xc66.png", 
+    level : true
+    ,pro : true
+
+  },
   {
     id : "7",
     title : "A Dynamic Platform for Seamless Interaction", 
-    description : "The platform offers a seamless user experience, granting access to a plethora of functionalities. Users can effortlessly exchange messages or share URLs, while staying informed about who's online... ", 
+    description : "The platform offers a seamless user experience, granting access to a plethora of functionalities. Users can effortlessly exchange messages or share URLs, while staying informed about who's online or offline through the connected status indicator. A comprehensive list showcases all registered users, alongside real-time updates on those currently active. With the ability to navigate profiles and modify personal information, the platform fosters interaction and customization, ensuring a dynamic and engaging environment for its users.    ", 
     image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1709819133/jackjack_tcbzyi.png", 
     level : true,
     pro : true
@@ -48,15 +56,7 @@ const projects = [
   }
   ,
   
-  {
-    id : "4",
-    title : "Social Media App ", 
-    description : "Linkopedia is your ultimate social media platform, designed to bring people together in a vibrant digital community. With a focus on user engagement and meaningful interactions...", 
-    image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1692035586/social1_1_-min_my4djz.png", 
-    level : true
-    ,pro : true
-
-  },
+  
   {
     id : "5",
     title : "Marketplace | Make a gig now !", 
@@ -151,7 +151,7 @@ const WhoDesktop = () => {
         <div className="imagekk">
           <img src={Img} alt="" />
           <img src={Img2} alt="" />
-          <img src={Img3} alt="" />
+          <img src="https://res.cloudinary.com/dqprleeyt/image/upload/v1692706127/Design_sans_titre_2_v85d9k.png" alt="" />
         </div>
         <div className="hr" />
         <div className="text">
@@ -186,7 +186,7 @@ const WhoDesktop = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
+                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -218,7 +218,7 @@ const WhoDesktop = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
+                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
@@ -250,7 +250,7 @@ const WhoDesktop = () => {
                   <img src="https://www.ideematic.com/wp-content/uploads/2018/05/react-native-developpement-mobile.png" alt="" />
                 </button>
                 <button class="btnLogoh">
-                  <img src="https://blog.cellenza.com/wp-content/uploads/2015/05/React-JS.png" alt="" />
+                  <img src="https://faq.o2switch.fr/_media/tuto-rapide/o2switch-deployer-react.js.png" alt="" />
                 </button>
                 <button class="btnLogoh">
                   <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="" />
