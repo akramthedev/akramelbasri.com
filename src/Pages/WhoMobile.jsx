@@ -17,7 +17,7 @@ const projects = [
   {
     id : "4",
     title : "Xplorium", 
-    description : "Xplorium is an app with a 𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝗱𝘀 𝗦𝘆𝘀𝘁𝗲𝗺 and 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘁𝘆 𝗥𝗲𝗰𝗼𝗴𝗻𝗶𝘇𝗲𝗿 based on interactions with the site content, and other complex algorithms using 𝗚𝗿𝗮𝗽𝗵𝘀.", 
+    description : "Xplorium is a social media app with a Complex Ads System and Personality Recognizer based on interactions with the site content, and other complex algorithms using Graphs...", 
     image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453679/Screenshot_Capture_-_2024-04-18_-_01-03-41_t3xc66.png", 
     level : true
     ,pro : true
