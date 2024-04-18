@@ -25,9 +25,11 @@ const Hero = () => {
     const handleDownload =  ()=>{
         const anchor = document.createElement('a');
         //replace it with the link of your curriculum vitae
+        /*
         anchor.href = "https://res.cloudinary.com/dqprleeyt/image/upload/v1710092287/Akram_Elbasri_io2dx2.png";
         anchor.download = 'curriculum-vitæ.png';
         anchor.click();
+        */
     }
 
   return (
