@@ -53,8 +53,8 @@ const Hero = () => {
             
             
             <div className="case3p1"> 
-                <button className='b' onClick={()=>{handleDownload();}}>
-                    CV
+                <button className='b' onClick={handleClickSearchAkram}>
+                    Contact
                 </button>
                 <button className='a'
                     onClick={handleClickSearchAkram}
