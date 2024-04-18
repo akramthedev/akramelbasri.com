@@ -452,11 +452,11 @@
 
 
 .rowzuididf{
-    min-height: 220px;
+    min-height: auto;
     width: 100%;
     padding: 0 1rem;
     flex-direction: column;
-    margin-top: 1.33rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -787,8 +787,6 @@
     margin-bottom: .4rem;
 }
 
-.mobileSearchmobileSearch .caseOne{
-    position : sticky;
-    top: 0px;
-    z-index: 1000000; 
+.zuoqeqdqs{
+    margin-top: 2rem !important;
 }
