@@ -26,7 +26,7 @@ const projects = [
   {
     id : "7",
     title : "A Dynamic Platform for Seamless Interaction", 
-    description : "The platform offers a seamless user experience, granting access to a plethora of functionalities. Users can effortlessly exchange messages or share URLs, while staying informed about who's online...", 
+    description : "The platform offers a seamless user experience, granting access to a plethora of functionalities. Users can effortlessly exchange messages or share URLs, while staying informed about who's online or offline through the connected status indicator...    ", 
     image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1709819133/jackjack_tcbzyi.png", 
     level : true,
     pro : true
