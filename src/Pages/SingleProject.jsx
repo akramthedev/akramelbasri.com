@@ -14,7 +14,7 @@ import ArrowForward from "@mui/icons-material/ArrowForwardIos"
 
 
 const projects = [
-  {}, 
+  {},
   {
     title : "Maven: A Blog Platform Offering Compensation to Authors | Boasting 24,000 Lines of Code, an Impressive Feat.", 
     shortDesc : "Maven is an innovative blogging platform that revolutionizes the traditional blogging experience.", 
@@ -43,13 +43,27 @@ const projects = [
     level : "advanced"
   }, 
   {
-    title : "Social Media App", 
-    shortDesc : "Linkopedia emerges as a transformative force in the realm of social media, redefining digital communities through its innovative approach. With a relentless focus on user engagement and meaningful interactions, Linkopedia serves as the ultimate platform for forging connections, fostering friendships, and exploring shared interests. By providing intuitive features and dynamic functionalities, Linkopedia empowers individuals to express themselves authentically and curate enriching online experiences that resonate with their unique identities.", 
-    longDesc : "At the core of Linkopedia's ethos lies a dedication to privacy, security, and digital well-being. With robust privacy controls, stringent security measures, and comprehensive moderation policies, Linkopedia ensures that users can engage with confidence, knowing that their personal information and online interactions are safeguarded. As a beacon of inclusivity and respect, Linkopedia stands as a testament to the transformative power of social media, uniting people from diverse backgrounds and cultures in a shared journey of discovery, connection, and collective growth. Join Linkopedia today and become part of a thriving digital community where meaningful connections flourish and boundaries dissolve.", 
-    image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1692035586/social1_1_-min_my4djz.png", 
-    img2 : "https://res.cloudinary.com/dqprleeyt/image/upload/v1692035580/social2-min_vee2tz.png", 
-    img3 : "https://res.cloudinary.com/dqprleeyt/image/upload/v1692035624/social4-min_q4fuqc.png", 
-    level : "pro"
+    title : "Xplorium 22.000 Lines of code in 10 days", 
+    shortDesc : "A 𝗦𝗼𝗰𝗶𝗮𝗹 𝗠𝗲𝗱𝗶𝗮 App with 𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝗱𝘀 𝗦𝘆𝘀𝘁𝗲𝗺 and 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘁𝘆 𝗥𝗲𝗰𝗼𝗴𝗻𝗶𝘇𝗲𝗿 based on interactions with the site content, and other complex algorithms using 𝗚𝗿𝗮𝗽𝗵𝘀.", 
+    longDesc : "At the core of Xplorium's ethos lies a dedication to privacy, security, and digital well-being. With robust privacy controls, stringent security measures, and comprehensive moderation policies, Xplorium ensures that users can engage with confidence, knowing that their personal information and online interactions are safeguarded. As a beacon of inclusivity and respect.", 
+    image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453645/Screenshot_Capture_-_2024-04-18_-_00-59-33_mjhz71.png", 
+    images : [
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453679/Screenshot_Capture_-_2024-04-18_-_01-03-41_t3xc66.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453656/Screenshot_Capture_-_2024-04-18_-_01-06-22_rbe5bl.png",
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453646/Screenshot_Capture_-_2024-04-18_-_01-05-37_aacdbz.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453660/Screenshot_Capture_-_2024-04-18_-_01-05-24_orx7aq.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453670/Screenshot_Capture_-_2024-04-18_-_01-13-31_oymkea.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453674/Screenshot_Capture_-_2024-04-18_-_01-13-45_sicwlj.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453678/Screenshot_Capture_-_2024-04-18_-_01-13-17_wab9l7.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453677/Screenshot_Capture_-_2024-04-18_-_01-12-45_mvpbyj.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453657/Screenshot_Capture_-_2024-04-18_-_01-12-32_jjsucf.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453665/Screenshot_Capture_-_2024-04-18_-_01-12-54_kbk8ua.png",
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453656/Screenshot_Capture_-_2024-04-18_-_01-11-39_bvev8v.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453655/Screenshot_Capture_-_2024-04-18_-_01-10-17_rymjp1.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453641/Screenshot_Capture_-_2024-04-18_-_00-59-45_lfn12x.png", 
+          "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453674/Screenshot_Capture_-_2024-04-18_-_01-15-00_ixw7uw.png", 
+    ],
+    level : "advanced"
   }, 
   {
     title : "MarketPlace App |  Make a gig now !", 
@@ -252,35 +266,18 @@ const SingleProject = () => {
         {
           ID && ID === 4  && 
           <>
-
-
-            <br />
-            
             <div className="rowzuididf">
-              <img src={projects[ID].image} alt="" />
-              <span>
-                You can connect with others and expand your network! You can like or comment their posts. You'll get connection notifications as well as your post being liked.
-              </span>
+              <img src={projects[4].image} alt="" />
             </div>
-             <br /><br />
-            <div className='hr hrhrhr'/>
-             <br /><br />
-            <div className="rowzuididf">
-              <img src={projects[ID].img2} alt="" />
-             <span>There is also an admin panel where admins have total access to their app. </span>
-            </div>
-             <br /><br />
-            <div className='hr hrhrhr'/>
-            <br /><br />
-
-            
-            <div className="rowzuididf">
-              <img src={projects[ID].img3} alt="" />
-             <span>You can update your profile, as well as visiting others profile.</span>
-            </div>
-             <br /><br />
-            <div className='hr hrhrhr'/>
-            <br /><br />
+          {
+             projects && projects[4].images.map((img, index)=>{
+              return(
+                <div key={index} className="rowzuididf">
+                  <img src={img} alt="" />
+                </div>
+              )
+            })
+          }
           </>
         }
           
@@ -370,7 +367,7 @@ const SingleProject = () => {
         </div>
         :
          <>
-         <div className="rowHH JAJJAJAJ ">
+         <div className="rowHH JAJJAJAJ zuoqeqdqs ">
           <div className="rowHHHH">
           Web Socket
           </div>
