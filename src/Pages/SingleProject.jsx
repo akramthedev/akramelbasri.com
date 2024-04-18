@@ -105,6 +105,10 @@ const SingleProject = () => {
     window.open('https://www.webcraftagency.com/', '_blank');
   }
 
+  const handleCLickOnYoutube = () => {
+     window.open('https://youtu.be/0Qm5_dqb4F0/', '_blank');
+  }
+  
   useEffect(()=>{
     const x = ()=>{
       window.scrollTo({
@@ -409,7 +413,7 @@ const SingleProject = () => {
         </div>
 
         {
-            ID === 3 &&
+            ID === 3 ?
           <>
          <div className="zkxc">
             <div onClick={handleCLickOnTheWeBCraf} className="zueduid" >
@@ -418,6 +422,15 @@ const SingleProject = () => {
             </div>
          </div>
           </>  
+          :
+          <>
+         <div className="zkxc">
+            <div onClick={handleCLickOnYoutube} className="zueduid" >
+              <a  className="djjd" href="https://youtu.be/0Qm5_dqb4F0/" target="_blank" rel="noreferrer" >Watch Demo on Youtube</a>
+              &nbsp;<ArrowForward className='arrowBack' />
+            </div>
+         </div>
+          </> 
           }
 
 
