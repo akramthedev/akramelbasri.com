@@ -13,21 +13,7 @@
 .mobileSearch::-webkit-scrollbar{
     width: 0;
 }
-.caseOne{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.777rem;
-    padding: 0.4rem 0.666rem;
-    position: sticky;
-    top:0;
-    z-index: 9999;
-    backdrop-filter: blur(4px) saturate(200%);
-    -webkit-backdrop-filter: blur(4px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0);
-}
+
 .caseOne img{
     object-fit: cover;
     height:35px;
@@ -790,3 +776,20 @@
 .zuoqeqdqs{
     margin-top: 2rem !important;
 }
+
+
+.caseOne{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.777rem;
+    padding: 0.4rem 0.666rem;
+   position: sticky;
+    top: 0;
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+}
+
