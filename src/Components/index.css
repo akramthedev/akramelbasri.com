@@ -594,5 +594,12 @@
 }
 
 .addColorBackGroundKK{
-    background-color: #dfebff !important;
+    background-color: black !important;
+}
+
+.addColorBackGroundKK .row2 .column1 {
+    color : white;
+}
+.addColorBackGroundKK .row1  {
+    color : #77CCFF;
 }
