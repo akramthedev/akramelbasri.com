@@ -8,7 +8,7 @@ const Project = ({data}) => {
     <>
     {
         data && 
-        <div className={data ? "zidusck caseTwom6 caseTwom6zfieduq addColorBackGroundKK" : "zidusck caseTwom6 caseTwom6zfieduq "} onClick={()=>{navigate(`/project/${data.id}`);}}>
+        <div className={data.title === "Xplorium" ? "zidusck caseTwom6 caseTwom6zfieduq addColorBackGroundKK" : "zidusck caseTwom6 caseTwom6zfieduq "} onClick={()=>{navigate(`/project/${data.id}`);}}>
             <div className="row1">
             {
                 (data.id === "1" || data.id === "4") && 
