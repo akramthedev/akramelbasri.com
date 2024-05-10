@@ -23,7 +23,7 @@ const Hero = () => {
     }
 
     const handleCLickBlog = ()=>{
-        
+                window.open('https://xplorium.netlify.app/', '_blank');
     }
     
     const handleDownload =  ()=>{
