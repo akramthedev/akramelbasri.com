@@ -22,6 +22,10 @@ const Hero = () => {
         }
     }
 
+    const handleCLickBlog = ()=>{
+        
+    }
+    
     const handleDownload =  ()=>{
         const anchor = document.createElement('a');
         //replace it with the link of your curriculum vitae
@@ -53,8 +57,8 @@ const Hero = () => {
             
             
             <div className="case3p1"> 
-                <button className='b' onClick={handleClickSearchAkram}>
-                    Contact
+                <button className='b' onClick={handleCLickBlog}>
+                    Blog
                 </button>
                 <button className='a'
                     onClick={handleClickSearchAkram}
