@@ -43,8 +43,8 @@ const projects = [
     level : "advanced"
   }, 
   {
-    title : "Xplorium 22.000 Lines of code in 10 days", 
-    shortDesc : "A 𝗦𝗼𝗰𝗶𝗮𝗹 𝗠𝗲𝗱𝗶𝗮 App with 𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝗱𝘀 𝗦𝘆𝘀𝘁𝗲𝗺 and 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘁𝘆 𝗥𝗲𝗰𝗼𝗴𝗻𝗶𝘇𝗲𝗿 based on interactions with the site content, and other complex algorithms using 𝗚𝗿𝗮𝗽𝗵𝘀.", 
+    title : "𝗦𝗼𝗰𝗶𝗮𝗹 𝗠𝗲𝗱𝗶𝗮 App with 𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝗱𝘀 𝗦𝘆𝘀𝘁𝗲𝗺 and 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘁𝘆 𝗥𝗲𝗰𝗼𝗴𝗻𝗶𝘇𝗲𝗿 based on interactions with the site content, and other complex algorithms using 𝗚𝗿𝗮𝗽𝗵𝘀.", 
+    shortDesc : "", 
     longDesc : "At the core of Xplorium's ethos lies a dedication to privacy, security, and digital well-being. With robust privacy controls, stringent security measures, and comprehensive moderation policies, Xplorium ensures that users can engage with confidence, knowing that their personal information and online interactions are safeguarded. As a beacon of inclusivity and respect.", 
     image : "https://res.cloudinary.com/dqprleeyt/image/upload/v1713453645/Screenshot_Capture_-_2024-04-18_-_00-59-33_mjhz71.png", 
     images : [
