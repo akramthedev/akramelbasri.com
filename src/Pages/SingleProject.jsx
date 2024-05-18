@@ -273,7 +273,7 @@ const SingleProject = () => {
             <>
               <a href="https://drive.google.com/drive/folders/1Y1dWf9SI32ptnSy-cCvyD3zOl99cn1Xx" target="_blank" >Code Source</a>
               <br/>
-              <a href="https://drive.google.com/drive/folders/1pJWKAmm4IENeN1RGUGR7hYRlqQhIJ0yA" target="_blank" >SRS & Presentation</a>
+              <a style={{color : "whitesmoke"}}  href="https://drive.google.com/drive/folders/1pJWKAmm4IENeN1RGUGR7hYRlqQhIJ0yA" target="_blank" >SRS & Presentation</a>
             </>
             <br/>
             <div className="rowzuididf">
