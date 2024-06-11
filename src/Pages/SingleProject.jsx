@@ -434,7 +434,7 @@ const SingleProject = () => {
           <>
          <div className="zkxc">
             <div onClick={handleCLickOnYoutube} className="zueduid" >
-              <a  className="djjd" href="https://youtu.be/0Qm5_dqb4F0/" target="_blank" rel="noreferrer" >Watch Demo on Youtube</a>
+              <a  className="djjd" href="https://drive.google.com/drive/folders/1YM-L_ZKTL0g6StuFN0DaMzt-pajLEEV3" target="_blank" rel="noreferrer" >Watch The Practical video</a>
               &nbsp;<ArrowForward className='arrowBack' />
             </div>
          </div>
