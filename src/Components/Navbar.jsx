@@ -32,9 +32,7 @@ const Navbar = () => {
             Google
         </button>
        
-        <button onClick={()=>{handleDownload(); userDownloadedResume();}}>
-        My C.V
-        </button>
+    
        
         <button className='grid'>
             <ViewCompactIcon className='jack'/>
